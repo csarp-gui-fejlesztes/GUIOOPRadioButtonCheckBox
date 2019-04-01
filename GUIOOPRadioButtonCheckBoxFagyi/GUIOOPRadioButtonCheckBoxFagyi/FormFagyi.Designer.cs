@@ -31,13 +31,13 @@
             this.radioButtonEdesTolcser = new System.Windows.Forms.RadioButton();
             this.radioButtonGlutenMentesTolcser = new System.Windows.Forms.RadioButton();
             this.radioButtonKicsiTolcser = new System.Windows.Forms.RadioButton();
-            this.checkBoxGyumolcsRatet = new System.Windows.Forms.CheckBox();
+            this.checkCsokisRatet = new System.Windows.Forms.CheckBox();
             this.checkBoxEdesRud = new System.Windows.Forms.CheckBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownGombocSzam = new System.Windows.Forms.NumericUpDown();
             this.labelGombocokSzama = new System.Windows.Forms.Label();
             this.labelFizetendoOsszeg = new System.Windows.Forms.Label();
             this.textBoxFizetendoOsszeg = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownGombocSzam)).BeginInit();
             this.SuspendLayout();
             // 
             // radioButtonEdesTolcser
@@ -73,15 +73,15 @@
             this.radioButtonKicsiTolcser.Text = "kicsi tölcsér";
             this.radioButtonKicsiTolcser.UseVisualStyleBackColor = true;
             // 
-            // checkBoxGyumolcsRatet
+            // checkCsokisRatet
             // 
-            this.checkBoxGyumolcsRatet.AutoSize = true;
-            this.checkBoxGyumolcsRatet.Location = new System.Drawing.Point(167, 44);
-            this.checkBoxGyumolcsRatet.Name = "checkBoxGyumolcsRatet";
-            this.checkBoxGyumolcsRatet.Size = new System.Drawing.Size(94, 17);
-            this.checkBoxGyumolcsRatet.TabIndex = 3;
-            this.checkBoxGyumolcsRatet.Text = "gyümölcs rátét";
-            this.checkBoxGyumolcsRatet.UseVisualStyleBackColor = true;
+            this.checkCsokisRatet.AutoSize = true;
+            this.checkCsokisRatet.Location = new System.Drawing.Point(167, 44);
+            this.checkCsokisRatet.Name = "checkCsokisRatet";
+            this.checkCsokisRatet.Size = new System.Drawing.Size(80, 17);
+            this.checkCsokisRatet.TabIndex = 3;
+            this.checkCsokisRatet.Text = "csokis rátét";
+            this.checkCsokisRatet.UseVisualStyleBackColor = true;
             // 
             // checkBoxEdesRud
             // 
@@ -93,13 +93,13 @@
             this.checkBoxEdesRud.Text = "édes rúd";
             this.checkBoxEdesRud.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // numericUpDownGombocSzam
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(114, 136);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(97, 20);
-            this.numericUpDown1.TabIndex = 5;
-            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numericUpDownGombocSzam.Location = new System.Drawing.Point(114, 136);
+            this.numericUpDownGombocSzam.Name = "numericUpDownGombocSzam";
+            this.numericUpDownGombocSzam.Size = new System.Drawing.Size(97, 20);
+            this.numericUpDownGombocSzam.TabIndex = 5;
+            this.numericUpDownGombocSzam.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // labelGombocokSzama
             // 
@@ -136,15 +136,15 @@
             this.Controls.Add(this.textBoxFizetendoOsszeg);
             this.Controls.Add(this.labelFizetendoOsszeg);
             this.Controls.Add(this.labelGombocokSzama);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.numericUpDownGombocSzam);
             this.Controls.Add(this.checkBoxEdesRud);
-            this.Controls.Add(this.checkBoxGyumolcsRatet);
+            this.Controls.Add(this.checkCsokisRatet);
             this.Controls.Add(this.radioButtonKicsiTolcser);
             this.Controls.Add(this.radioButtonGlutenMentesTolcser);
             this.Controls.Add(this.radioButtonEdesTolcser);
             this.Name = "FormFagyi";
             this.Text = "Fagyi rendelés";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownGombocSzam)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,9 +155,9 @@
         private System.Windows.Forms.RadioButton radioButtonEdesTolcser;
         private System.Windows.Forms.RadioButton radioButtonGlutenMentesTolcser;
         private System.Windows.Forms.RadioButton radioButtonKicsiTolcser;
-        private System.Windows.Forms.CheckBox checkBoxGyumolcsRatet;
+        private System.Windows.Forms.CheckBox checkCsokisRatet;
         private System.Windows.Forms.CheckBox checkBoxEdesRud;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDownGombocSzam;
         private System.Windows.Forms.Label labelGombocokSzama;
         private System.Windows.Forms.Label labelFizetendoOsszeg;
         private System.Windows.Forms.TextBox textBoxFizetendoOsszeg;
